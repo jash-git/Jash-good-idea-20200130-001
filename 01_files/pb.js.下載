@@ -1,0 +1,44 @@
+var apxTag = window.apxTag || {};
+apxTag.cmd = apxTag.cmd || [];
+apxTag.data = apxTag.data || {};
+apxTag.init = true;
+
+window.googletag = window.googletag || {};
+window.googletag.cmd = window.googletag.cmd || [];
+
+(function(){
+    apxTag.data.zones = apxTag.data.zones || {};
+    apxTag.data.zones["mhMi9ro1"] = apxTag.data.zones["mhMi9ro1"] || {};
+    apxTag.data.zones["mhMi9ro1"].cid = "RciszhgpTMaLtoQOMgXEzA";
+    apxTag.data.zones["mhMi9ro1"].crid = "RwtDUb4ATcyua0ZVyXH1xA";
+    apxTag.data.zones["WhI5m9Op"] = apxTag.data.zones["WhI5m9Op"] || {};
+    apxTag.data.zones["WhI5m9Op"].cid = "RciszhgpTMaLtoQOMgXEzA";
+    apxTag.data.zones["WhI5m9Op"].crid = "oevqSPYzTTeDRfhWCxxIBA";
+    apxTag.data.zones["WhueW9Op"] = apxTag.data.zones["WhueW9Op"] || {};
+    apxTag.data.zones["WhueW9Op"].cid = "1WY6kqaqRuW5LhpdDEXmOw";
+    apxTag.data.zones["WhueW9Op"].crid = "XNpcOjqFTf2QHooLCdUlIA";
+    apxTag.data.zones["HtuF9M-Q"] = apxTag.data.zones["HtuF9M-Q"] || {};
+    apxTag.data.zones["HtuF9M-Q"].cid = "RciszhgpTMaLtoQOMgXEzA";
+    apxTag.data.zones["HtuF9M-Q"].crid = "Wtifa7KXTiaF5ZpoyfqfPA";
+    apxTag.data.zones["WtIF930Q"] = apxTag.data.zones["WtIF930Q"] || {};
+    apxTag.data.zones["WtIF930Q"].cid = "RciszhgpTMaLtoQOMgXEzA";
+    apxTag.data.zones["WtIF930Q"].crid = "lPvDaLD3QM6uJvehNv-jkQ";
+    apxTag.data.zones["WtIJ930Q"] = apxTag.data.zones["WtIJ930Q"] || {};
+    apxTag.data.zones["WtIJ930Q"].cid = "RciszhgpTMaLtoQOMgXEzA";
+    apxTag.data.zones["WtIJ930Q"].crid = "RwtDUb4ATcyua0ZVyXH1xA";
+    apxTag.data.zones["WhI5mzOp"] = apxTag.data.zones["WhI5mzOp"] || {};
+    apxTag.data.zones["WhI5mzOp"].cid = "RciszhgpTMaLtoQOMgXEzA";
+    apxTag.data.zones["WhI5mzOp"].crid = "Wtifa7KXTiaF5ZpoyfqfPA";
+    window.googletag.cmd.push(function() {
+      var pubads = window.googletag.pubads();
+      pubads.setTargeting("apxzone_mhMi9ro1", "1");
+      pubads.setTargeting("apxzone_WhI5m9Op", "1");
+      pubads.setTargeting("apxzone_WhueW9Op", "1");
+      pubads.setTargeting("apxzone_HtuF9M-Q", "1");
+      pubads.setTargeting("apxzone_WtIF930Q", "1");
+      pubads.setTargeting("apxzone_WtIJ930Q", "1");
+      pubads.setTargeting("apxzone_WhI5mzOp", "1");
+      pubads.setTargeting("apx_info", encodeURIComponent(JSON.stringify({"page_title": document.title})));
+    });
+})();
+
