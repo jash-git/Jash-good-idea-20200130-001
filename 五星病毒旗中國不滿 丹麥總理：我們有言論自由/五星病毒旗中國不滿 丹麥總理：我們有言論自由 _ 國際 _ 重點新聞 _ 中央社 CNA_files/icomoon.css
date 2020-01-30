@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?40eb9s");
+  src: url("../fonts/icomoon.woff?40eb9s") format("woff"), url("../fonts/icomoon.svg?40eb9s#icomoon") format("svg"), url("../fonts/icomoon.eot?40eb9s#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?40eb9s") format("truetype");
+  font-weight: normal;
+  font-display: swap;
+  font-style: swap; }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-earth:before {
+  content: "\e900"; }
+
+.icon-backtotop:before {
+  content: "\e901"; }
+
+.icon-close-envelope:before {
+  content: "\e902"; }
+
+.icon-cross:before {
+  content: "\e903"; }
+
+.icon-dot:before {
+  content: "\e904"; }
+
+.icon-fb:before {
+  content: "\e905"; }
+
+.icon-fonts:before {
+  content: "\e906"; }
+
+.icon-google-plus:before {
+  content: "\e907"; }
+
+.icon-grid:before {
+  content: "\e908"; }
+
+.icon-left-arrow:before {
+  content: "\e909"; }
+
+.icon-line:before {
+  content: "\e90a"; }
+
+.icon-list:before {
+  content: "\e90b"; }
+
+.icon-logo:before {
+  content: "\e90c"; }
+
+.icon-logo_s:before {
+  content: "\e90d"; }
+
+.icon-photo-slideshow:before {
+  content: "\e90e"; }
+
+.icon-piclist:before {
+  content: "\e90f"; }
+
+.icon-play:before {
+  content: "\e910"; }
+
+.icon-refresh:before {
+  content: "\e911"; }
+
+.icon-right-arrow:before {
+  content: "\e912"; }
+
+.icon-link:before {
+  content: "\e913"; }
+
+.icon-search:before {
+  content: "\e914"; }
+
+/*# sourceMappingURL=http://localhost:3000/_maps/icomoon.css.map */
